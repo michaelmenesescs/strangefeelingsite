@@ -114,3 +114,11 @@
     flex-direction: column;
   }
 }
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  height: "100px";
+  width: "200px";
+}

@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  justify-content: center;
+}
+
+
+
