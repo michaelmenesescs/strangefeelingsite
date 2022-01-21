@@ -8,7 +8,7 @@ import '98.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.landingContainer}>
       <Head>
         <title>The Cosmic Sunshine</title>
         <meta name="description" content="The Cosmic Sunshine, a music and visual experience from New York City" />
@@ -17,14 +17,15 @@ export default function Home() {
       <div className = "window"  
             style={{
                     width: "100%", 
-                    height: "300px"
+                    height: "100%"
                     }} >
          <div className='title-bar'
               style={{
                 width: "100%",
+                height: '100%',
                 color: "white",
                 fontSize: "20pt",
-                padding: "25px"
+                padding: "30px"
               }}
          
          >
@@ -39,15 +40,18 @@ export default function Home() {
                     textAlign:"center",
                     fontSize: "30pt",
                     padding: "20px",
-                    height: "300px"
+                    height: "100%",
                     
                   }}
               >
                 would you like a strange feeling?  
                 </div>
               <div className={styles.buttonContainer}>
-
-                <button> <Link href="main"> please </Link></button>
+                <button style={{
+                  width: '400px', 
+                  height: '200px',
+                  fontSize: '25pt'
+                }}> <Link href="main"> please </Link></button>
                 
               </div>
           </div>
