@@ -16,7 +16,7 @@ const ResponsiveNavbar = () => {
     <div className={styles.navContainer}>
       <div className={styles.blockL}>
         <StyledLink href="/">
-          <Image src={"/media/60logo.png"} width="452px" height="101px" />
+          <Image src={"/media/60logo.png"} width="452px" height="101px" alt="Logo for the Cosmic Sunshine" loading="eager"/>
         </StyledLink>
       </div>
       <div className={styles.blockR}>

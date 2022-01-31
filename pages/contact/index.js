@@ -32,6 +32,11 @@ const index = () => {
           </a>
         </div>
         <div className={styles.link}>
+          <a href={"https://www.pinterest.com/thecosmicsunshine/"}>
+            Pinterest
+          </a>
+        </div>
+        <div className={styles.link}>
           <a href={"mailto:thecosmicsunshine@gmail.com"}>
             Email
           </a>

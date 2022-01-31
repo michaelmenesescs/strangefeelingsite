@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.homeContainer}>
       <Head>
         <title>The Cosmic Sunshine</title>
-        <meta name="description" content="The Cosmic Sunshine, a music and visual experience from New York City" />
+        <meta name="description" content="The Cosmic Sunshine, a sonic and visual experience from New York City" />
         <link rel="icon" href="/media/logo.png" />
       </Head>
       <NameBar />
@@ -34,7 +34,7 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.link}>
-          <Link href="/blog">
+          <Link href="https://mirror.xyz/0xcF0d89AcC115f3e1537930fe9E883cb0F5C4cBa7" >
             Blog
           </Link>
         </div>
