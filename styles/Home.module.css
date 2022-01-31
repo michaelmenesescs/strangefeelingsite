@@ -1,81 +1,94 @@
-.landingContainer {
-  background: blue;
-  height: 100%;
-}
-
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  height: "400px";
-  width: "200px";
-  padding: 100px;
-}
-
-
-.mainContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-
 .navContainer {
   display: flex;
-  padding: 50px;
-  width: 100%;
   align-items: center;
-  background-color: black;
-  
-}
-
-.navContainer a {
-  text-decoration: none;
-  color: white;
+  justify-content: flex-start;
+  background-color: #FAE7C4;
 }
 
 .blockL {
   display: flex;
   width: 50%;
+  justify-content: flex-start;
+}
 
+.blockR a {
+  text-decoration: none;
+  color:black;
 }
 
 .blockR {
   display: flex;
   width: 50%;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 25pt;
   font-family: 'Bauhaus';
+  text-decoration: none;
+}
+
+.homeContainer {
+  display: flex;
+  background-color: #FAE7C4;
+  flex-direction: column;
+  min-height: 1440px;
+  
+}
+
+.homeLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #F39626;
+  font-family: 'Bauhaus';
+  font-size: 35pt;
 }
 
 .musicContainer {
   display: flex;
-  background-color: black;
-  color: white;
-  height: 100%;
-  justify-content: center;
   flex-direction: column;
-}
-
-.musicContainerHeading {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Bauhaus';
-  font-size: 20pt;
-
-}
-
-.linkContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #FAE7C4;
+  min-height: 1440px;
   align-items: center;
 }
-.linkContainer a{
-  text-decoration: none;
-  color: white;
-  font-family: 'Bauhaus';
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAE7C4;
+  min-height: 1440px;
+  align-items: center;
   font-size: 30pt;
-  
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAE7C4;
+  font-family: 'Bauhaus';
+  font-size: 25pt;
+}
+
+.links {
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAE7C4;
+  min-height: 1440px;
+}
+
+.imgwrapper {
+  padding: 30px;
 }
