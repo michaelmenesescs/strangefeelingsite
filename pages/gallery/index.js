@@ -17,9 +17,6 @@ const index = () => {
       <ResponsiveNavbar />
       <div className={styles.galleryContainer}>
         <div className={styles.imgwrapper}>
-          <Image src={"/media/moog.jpg"} width="960px" height="640px" alt="moog" loading='eager' />
-        </div>
-        <div className={styles.imgwrapper}>
           <Image src={"/media/bsides.png"} width="640px" height="640px" alt="B sides" loading='eager' />
         </div>
         <div className={styles.imgwrapper}>
