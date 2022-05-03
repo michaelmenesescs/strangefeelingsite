@@ -8,7 +8,7 @@ const NameBar = () => {
   return (
       <div className={styles.navContainer}>
         <div className={styles.blockL}>
-            <Image src={"/media/60logo.png"} width="452px" height="101px" alt="Logo for the Cosmic Sunshine" loading="eager "/>
+            <Image src={"/media/60logo.png"} width="452px" height="101px" alt="Logo for the Cosmic Sunshine" />
         </div>
       </div>
   );
