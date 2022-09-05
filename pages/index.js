@@ -9,14 +9,24 @@ import NameBar from '../components/NameBar'
 
 export default function Home() {
   return (
-    <div className={styles.homeContainer}>
+    <div >
       <Head>
         <title>The Cosmic Sunshine</title>
         <meta name="description" content="The Cosmic Sunshine, a sonic and visual experience from New York City" />
         <link rel="icon" href="/media/logo.png" />
       </Head>
+      <div className={styles.bgWrap}>
+        <video autoPlay loop muted id="myVideo" width="1444" height="1950">
+              <source src='/bckgnd.mp4' type='video/mp4' />
+        </video>
+       
+      </div>
       <NameBar />
-      <div className={styles.homeLinks}>
+
+   
+      
+
+        <div className={styles.homeLinks}>
         <div className={styles.link}>
           <Link href="/gallery">
             Gallery
@@ -39,7 +49,8 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </div>
 
+
+    </div>
   )
 }

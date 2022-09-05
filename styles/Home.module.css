@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #FAE7C4;
 }
 
 .blockL {
   display: flex;
   width: 50%;
   justify-content: flex-start;
+  z-index: 0;
+  background-color: #FAE7C4;
 }
 
 .blockR a {
@@ -51,9 +52,10 @@
 
 .homeContainer {
   display: flex;
-  background-color: #FAE7C4;
+  background-color: transparent;
   flex-direction: column;
   min-height: 1440px;
+  z-index: -1;
   
 }
 
@@ -63,6 +65,7 @@
   justify-content: space-between;
   align-items: center;
   height: 500px;
+  margin-top: 10%;
 }
 
 .link a {
@@ -115,4 +118,25 @@
 
 .imgwrapper {
   padding: 30px;
+}
+
+.videoBackground {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+
+.bgWrap {
+  position:fixed;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  z-index: -1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBack {
+    background-color: #FAE7C4;
 }
