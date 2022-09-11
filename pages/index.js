@@ -2,14 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import NameBar from '../components/NameBar'
-
-
-
+import NameBarNoColor from '../components/NameBarNoColor'
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>The Cosmic Sunshine</title>
         <meta name="description" content="The Cosmic Sunshine, a sonic and visual experience from New York City" />
@@ -21,11 +18,7 @@ export default function Home() {
         </video>
        
       </div>
-      <NameBar />
-
-   
-      
-
+      <NameBarNoColor />
         <div className={styles.homeLinks}>
         <div className={styles.link}>
           <Link href="/gallery">

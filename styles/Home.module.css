@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: flex-start;
 }
+.navContainerResponsive {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #FAE7C4;
+}
 
 .blockL {
   display: flex;
@@ -10,6 +16,14 @@
   justify-content: flex-start;
   z-index: 0;
   background-color: #FAE7C4;
+}
+
+.blockLsansColor {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  z-index: 0;
+  background-color: transparent;
 }
 
 .blockR a {
@@ -25,6 +39,7 @@
   font-size: 25pt;
   font-family: 'Bauhaus';
   text-decoration: none;
+  background-color: #FAE7C4;
 }
 
 @media screen and (max-width: 600px){

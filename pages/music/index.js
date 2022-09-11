@@ -46,6 +46,11 @@ const index = () => {
             Youtube
           </a>
           </div>
+        <div className={styles.link}>
+          <a href={"https://thecosmicsunshine.bandcamp.com/"}>
+            Bandcamp
+          </a>
+          </div>
         </div>
       </div>
     </div>

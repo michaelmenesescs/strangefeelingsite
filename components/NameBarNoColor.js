@@ -4,14 +4,14 @@ import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
 
-const NameBar = () => {
+const NameBarNoColor = () => {
   return (
       <div className={styles.navContainer}>
-        <div className={styles.blockL}>
+        <div className={styles.blockLsansColor}>
             <Image src={"/media/60logo.png"} width="452px" height="101px" alt="Logo for the Cosmic Sunshine" />
         </div>
       </div>
   );
 };
 
-export default NameBar;
+export default NameBarNoColor;
